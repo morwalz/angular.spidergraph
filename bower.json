@@ -1,0 +1,27 @@
+{
+  "name": "angular-spider-graph",
+  "version": "0.1",
+  "homepage": "https://github.com/morwalz/angular.spidergraph",
+  "authors": [
+    "Shankar Morwal <morwal89@gmail.com>"
+  ],
+  "description": "Angular spider graph module",
+  "main": "src\\angular-spider-graph.js",
+  "keywords": [
+    "spider",
+    "graph",
+    "radar",
+    "graph",
+    "angular",
+    "spider",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
