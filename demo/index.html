@@ -1,0 +1,27 @@
+<html>
+    <header>
+        <title>Demo page</title>
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/angular.js"></script>
+        <script src="lib/jquery.spidergraph.js"></script>
+        <script src="./../build/angular-spider-graph.min.js"></script>
+    </header>
+    <body data-ng-app="myApp">
+        <div data-ng-controller="demoCtrl">
+            <h2>My daily routine chart</h2>
+            <spider-map labels="labels" ng-model="mapData" active-data="mapData"></spider-map>
+            Designing:{{mapData[0]}}<br/>
+            Coding:{{mapData[1]}}<br/>
+            Cycling:{{mapData[2]}}<br/>
+            Running:{{mapData[3]}}<br/>
+            Coding:{{mapData[4]}}<br/>
+            Learning:{{mapData[5]}}
+        </div>
+        <script>
+            angular.module('myApp',['morwal.spiderGraph']).controller('demoCtrl',function($scope){
+                $scope.labels =[ "Designing", "Coding", "Cycling", "Running","Coding","Learning"];
+                $scope.mapData = [1,9,2,5,10,7];
+            });
+        </script>
+    </body>
+</html>

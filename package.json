@@ -1,0 +1,19 @@
+{
+  "name": "Angular spider graph",
+  "author": "Shankar Morwal",
+  "homepage": "https://github.com/morwalz",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.8.4"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-uglify": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "load-grunt-tasks": "~0.3.0"
+  }
+}
