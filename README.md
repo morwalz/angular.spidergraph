@@ -19,6 +19,11 @@ How do I use it?
 Minimum use:
 ----------------
 Include https://github.com/jmstriegel/jquery.spidergraph jquery spider graph then 
+
+Download it from here or download via bower 
+```
+    bower install angular-spider-graph
+```
 angular spider graph
 
 Include the module in your app like 
